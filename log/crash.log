@@ -1,0 +1,105 @@
+2014-07-31 15:39:11 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:fbq_sup/1
+    pid: <0.91.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{conn_failed,{error,econnrefused}}}},[{fbq_webops,rabbit_simple_query,3,[{file,"src/fbq_webops.erl"},{line,14}]},{fbq_diagnostics,check_rabbit_queues,1,[{file,"src/fbq_diagnostics.erl"},{line,35}]},{fbq_sup,init,1,[{file,"src/fbq_sup.erl"},{line,33}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,237}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.90.0>]
+    messages: []
+    links: [<0.90.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 313
+  neighbours:
+2014-07-31 15:39:11 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.89.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{conn_failed,{error,econnrefused}}}},[{fbq_webops,rabbit_simple_query,3,[{file,"src/fbq_webops.erl"},{line,14}]},{fbq_diagnostics,check_rabbit_queues,1,[{file,"src/fbq_diagnostics.erl"},{line,35}]},{fbq_sup,init,1,[{file,"src/fbq_sup.erl"},{line,33}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,237}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{fbq_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.88.0>]
+    messages: [{'EXIT',<0.90.0>,normal}]
+    links: [<0.88.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 180
+  neighbours:
+2014-07-31 15:39:52 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:fbq_sup/1
+    pid: <0.91.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{conn_failed,{error,econnrefused}}}},[{fbq_webops,rabbit_simple_query,3,[{file,"src/fbq_webops.erl"},{line,14}]},{fbq_diagnostics,check_rabbit_queues,1,[{file,"src/fbq_diagnostics.erl"},{line,35}]},{fbq_sup,init,1,[{file,"src/fbq_sup.erl"},{line,33}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,237}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.90.0>]
+    messages: []
+    links: [<0.90.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 313
+  neighbours:
+2014-07-31 15:39:52 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.89.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{conn_failed,{error,econnrefused}}}},[{fbq_webops,rabbit_simple_query,3,[{file,"src/fbq_webops.erl"},{line,14}]},{fbq_diagnostics,check_rabbit_queues,1,[{file,"src/fbq_diagnostics.erl"},{line,35}]},{fbq_sup,init,1,[{file,"src/fbq_sup.erl"},{line,33}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,237}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{fbq_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.88.0>]
+    messages: [{'EXIT',<0.90.0>,normal}]
+    links: [<0.88.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 180
+  neighbours:
+2014-07-31 18:46:12 =ERROR REPORT====
+Error in process <0.148.0> with exit value: {badarg,[{fbq_logging,insert_log,3,[{file,"src/fbq_logging.erl"},{line,9}]}]}
+
+2014-08-01 13:54:04 =ERROR REPORT====
+Error in process <0.137.0> with exit value: {{badmatch,{error,retry_later}},[{fbq_webops,rabbit_simple_query,3,[{file,"src/fbq_webops.erl"},{line,14}]},{fbq_diagnostics,get_rabbit_queue_names,1,[{file,"src/fbq_diagnostics.erl"},{line,41}]},{fbq_rabbit,monitor_server_for_queues... 
+
+2014-08-01 14:54:32 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.185.0>
+    registered_name: []
+    exception exit: {{error,"unknown signal received"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [test1_monitor,test1,fbq_sup,<0.90.0>]
+    messages: [{'$gen_call',{<0.187.0>,#Ref<0.0.0.560>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 1')">>}},{'$gen_call',{<0.188.0>,#Ref<0.0.0.565>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 2')">>}},{'$gen_call',{<0.214.0>,#Ref<0.0.0.566>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 28')">>}},{'$gen_call',{<0.189.0>,#Ref<0.0.0.567>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 3')">>}},{'$gen_call',{<0.215.0>,#Ref<0.0.0.568>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 29')">>}},{'$gen_call',{<0.190.0>,#Ref<0.0.0.569>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 4')">>}},{'$gen_call',{<0.191.0>,#Ref<0.0.0.570>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 5')">>}},{'$gen_call',{<0.192.0>,#Ref<0.0.0.571>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 6')">>}},{'$gen_call',{<0.193.0>,#Ref<0.0.0.572>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 7')">>}},{'$gen_call',{<0.194.0>,#Ref<0.0.0.573>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 8')">>}},{'$gen_call',{<0.195.0>,#Ref<0.0.0.574>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 9')">>}},{'$gen_call',{<0.217.0>,#Ref<0.0.0.575>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 31')">>}},{'$gen_call',{<0.218.0>,#Ref<0.0.0.576>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 32')">>}},{'$gen_call',{<0.219.0>,#Ref<0.0.0.577>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 33')">>}},{'$gen_call',{<0.196.0>,#Ref<0.0.0.578>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 10')">>}},{'$gen_call',{<0.197.0>,#Ref<0.0.0.579>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 11')">>}},{'$gen_call',{<0.198.0>,#Ref<0.0.0.580>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 12')">>}},{'$gen_call',{<0.199.0>,#Ref<0.0.0.581>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 13')">>}},{'$gen_call',{<0.200.0>,#Ref<0.0.0.582>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 14')">>}},{'$gen_call',{<0.201.0>,#Ref<0.0.0.583>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 15')">>}},{'$gen_call',{<0.202.0>,#Ref<0.0.0.584>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 16')">>}},{'$gen_call',{<0.203.0>,#Ref<0.0.0.585>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 17')">>}},{'$gen_call',{<0.206.0>,#Ref<0.0.0.586>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 20')">>}},{'$gen_call',{<0.209.0>,#Ref<0.0.0.587>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 23')">>}},{'$gen_call',{<0.211.0>,#Ref<0.0.0.588>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 25')">>}},{'$gen_call',{<0.213.0>,#Ref<0.0.0.589>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 27')">>}},{'$gen_call',{<0.236.0>,#Ref<0.0.0.590>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 50')">>}},{'$gen_call',{<0.238.0>,#Ref<0.0.0.591>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 52')">>}},{'$gen_call',{<0.240.0>,#Ref<0.0.0.592>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 54')">>}}]
+    links: [<0.139.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 331
+  neighbours:
+2014-08-01 16:24:25 =CRASH REPORT====
+  crasher:
+    initial call: mysql:init/1
+    pid: <0.185.0>
+    registered_name: []
+    exception exit: {{error,"unknown signal received"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,320}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [test1_monitor,test1,fbq_sup,<0.90.0>]
+    messages: [{'$gen_call',{<0.186.0>,#Ref<0.0.0.461>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 1')">>}},{'$gen_call',{<0.187.0>,#Ref<0.0.0.462>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 2')">>}},{'$gen_call',{<0.207.0>,#Ref<0.0.0.463>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 22')">>}},{'$gen_call',{<0.208.0>,#Ref<0.0.0.464>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 23')">>}},{'$gen_call',{<0.188.0>,#Ref<0.0.0.465>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 3')">>}},{'$gen_call',{<0.209.0>,#Ref<0.0.0.466>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 24')">>}},{'$gen_call',{<0.189.0>,#Ref<0.0.0.467>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 4')">>}},{'$gen_call',{<0.210.0>,#Ref<0.0.0.468>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 25')">>}},{'$gen_call',{<0.190.0>,#Ref<0.0.0.469>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 5')">>}},{'$gen_call',{<0.211.0>,#Ref<0.0.0.470>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 26')">>}},{'$gen_call',{<0.191.0>,#Ref<0.0.0.471>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 6')">>}},{'$gen_call',{<0.212.0>,#Ref<0.0.0.472>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 27')">>}},{'$gen_call',{<0.192.0>,#Ref<0.0.0.473>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 7')">>}},{'$gen_call',{<0.193.0>,#Ref<0.0.0.474>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 8')">>}},{'$gen_call',{<0.213.0>,#Ref<0.0.0.475>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 28')">>}},{'$gen_call',{<0.214.0>,#Ref<0.0.0.476>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 29')">>}},{'$gen_call',{<0.194.0>,#Ref<0.0.0.477>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 9')">>}},{'$gen_call',{<0.215.0>,#Ref<0.0.0.478>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 30')">>}},{'$gen_call',{<0.195.0>,#Ref<0.0.0.479>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 10')">>}},{'$gen_call',{<0.216.0>,#Ref<0.0.0.480>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 31')">>}},{'$gen_call',{<0.196.0>,#Ref<0.0.0.481>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 11')">>}},{'$gen_call',{<0.217.0>,#Ref<0.0.0.482>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 32')">>}},{'$gen_call',{<0.218.0>,#Ref<0.0.0.483>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 33')">>}},{'$gen_call',{<0.197.0>,#Ref<0.0.0.484>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 12')">>}},{'$gen_call',{<0.198.0>,#Ref<0.0.0.485>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 13')">>}},{'$gen_call',{<0.219.0>,#Ref<0.0.0.486>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 34')">>}},{'$gen_call',{<0.220.0>,#Ref<0.0.0.487>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 35')">>}},{'$gen_call',{<0.199.0>,#Ref<0.0.0.488>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 14')">>}},{'$gen_call',{<0.221.0>,#Ref<0.0.0.489>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 36')">>}},{'$gen_call',{<0.200.0>,#Ref<0.0.0.490>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 15')">>}},{'$gen_call',{<0.222.0>,#Ref<0.0.0.491>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 37')">>}},{'$gen_call',{<0.201.0>,#Ref<0.0.0.492>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 16')">>}},{'$gen_call',{<0.202.0>,#Ref<0.0.0.493>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 17')">>}},{'$gen_call',{<0.223.0>,#Ref<0.0.0.494>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 38')">>}},{'$gen_call',{<0.224.0>,#Ref<0.0.0.495>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 39')">>}},{'$gen_call',{<0.203.0>,#Ref<0.0.0.496>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 18')">>}},{'$gen_call',{<0.225.0>,#Ref<0.0.0.497>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 40')">>}},{'$gen_call',{<0.204.0>,#Ref<0.0.0.498>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 19')">>}},{'$gen_call',{<0.226.0>,#Ref<0.0.0.499>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 41')">>}},{'$gen_call',{<0.227.0>,#Ref<0.0.0.500>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 42')">>}},{'$gen_call',{<0.205.0>,#Ref<0.0.0.501>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 20')">>}},{'$gen_call',{<0.228.0>,#Ref<0.0.0.503>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 43')">>}},{'$gen_call',{<0.229.0>,#Ref<0.0.0.504>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 44')">>}},{'$gen_call',{<0.230.0>,#Ref<0.0.0.505>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 45')">>}},{'$gen_call',{<0.231.0>,#Ref<0.0.0.506>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 46')">>}},{'$gen_call',{<0.232.0>,#Ref<0.0.0.509>},{fetch,connection,<<"Insert into logs (message) values ('Hai this is log message 47')">>}}]
+    links: [<0.139.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 393
+  neighbours:
+2014-08-01 17:10:38 =ERROR REPORT====
+Error in process <0.137.0> with exit value: {{badmatch,{error,retry_later}},[{fbq_webops,rabbit_simple_query,3,[{file,"src/fbq_webops.erl"},{line,14}]},{fbq_diagnostics,get_rabbit_queue_names,1,[{file,"src/fbq_diagnostics.erl"},{line,41}]},{fbq_rabbit,monitor_server_for_queues... 
+

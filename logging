@@ -1,0 +1,1 @@
+ERL_LIBS=deps erl -pa ebin  -pz deps/amqp_client deps/rabbit_common deps/amqp_client/ebin deps/rabbit_common/ebin -eval "application:start(amqp_client),application:start(crypto), ssl:start(),application:start(ibrowse),lager:start(),application:start(fbq)."

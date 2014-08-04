@@ -1,0 +1,15 @@
+2014-07-31 15:39:11.903 [error] <0.91.0> CRASH REPORT Process <0.91.0> with 0 neighbours exited with reason: no match of right hand value {error,{conn_failed,{error,econnrefused}}} in fbq_webops:rabbit_simple_query/3 line 14 in gen_server:init_it/6 line 328
+2014-07-31 15:39:11.904 [error] <0.89.0> CRASH REPORT Process <0.89.0> with 0 neighbours exited with reason: {{{badmatch,{error,{conn_failed,{error,econnrefused}}}},[{fbq_webops,rabbit_simple_query,3,[{file,"src/fbq_webops.erl"},{line,14}]},{fbq_diagnostics,check_rabbit_queues,1,[{file,"src/fbq_diagnostics.erl"},{line,35}]},{fbq_sup,init,1,[{file,"src/fbq_sup.erl"},{line,33}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,237}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{fbq_app,start,[normal,[]]}} in application_master:init/4 line 138
+2014-07-31 15:39:52.008 [error] <0.91.0> CRASH REPORT Process <0.91.0> with 0 neighbours exited with reason: no match of right hand value {error,{conn_failed,{error,econnrefused}}} in fbq_webops:rabbit_simple_query/3 line 14 in gen_server:init_it/6 line 328
+2014-07-31 15:39:52.009 [error] <0.89.0> CRASH REPORT Process <0.89.0> with 0 neighbours exited with reason: {{{badmatch,{error,{conn_failed,{error,econnrefused}}}},[{fbq_webops,rabbit_simple_query,3,[{file,"src/fbq_webops.erl"},{line,14}]},{fbq_diagnostics,check_rabbit_queues,1,[{file,"src/fbq_diagnostics.erl"},{line,35}]},{fbq_sup,init,1,[{file,"src/fbq_sup.erl"},{line,33}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,237}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{fbq_app,start,[normal,[]]}} in application_master:init/4 line 138
+2014-07-31 18:46:12.897 [error] emulator Error in process <0.148.0> with exit value: {badarg,[{fbq_logging,insert_log,3,[{file,"src/fbq_logging.erl"},{line,9}]}]}
+
+
+2014-08-01 13:54:04.040 [error] emulator Error in process <0.137.0> with exit value: {{badmatch,{error,retry_later}},[{fbq_webops,rabbit_simple_query,3,[{file,"src/fbq_webops.erl"},{line,14}]},{fbq_diagnostics,get_rabbit_queue_names,1,[{file,"src/fbq_diagnostics.erl"},{line,41}]},{fbq_rabbit,monitor_server_for_queues... 
+
+
+2014-08-01 14:54:32.511 [error] <0.185.0> CRASH REPORT Process <0.185.0> with 0 neighbours exited with reason: {error,"unknown signal received"} in gen_server:init_it/6 line 320
+2014-08-01 16:24:25.526 [error] <0.185.0> CRASH REPORT Process <0.185.0> with 0 neighbours exited with reason: {error,"unknown signal received"} in gen_server:init_it/6 line 320
+2014-08-01 17:10:38.578 [error] emulator Error in process <0.137.0> with exit value: {{badmatch,{error,retry_later}},[{fbq_webops,rabbit_simple_query,3,[{file,"src/fbq_webops.erl"},{line,14}]},{fbq_diagnostics,get_rabbit_queue_names,1,[{file,"src/fbq_diagnostics.erl"},{line,41}]},{fbq_rabbit,monitor_server_for_queues... 
+
+

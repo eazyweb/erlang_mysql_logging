@@ -1,0 +1,5 @@
+%% encoding: UTF-8
+{application,fbq}.
+{packages,[]}.
+{modules,[fbq_app,fbq_channel_sup,fbq_diagnostics,fbq_monitor_server,
+          fbq_rabbit,fbq_server,fbq_sup,fbq_webops]}.

@@ -1,0 +1,20 @@
+ {application, fbq,
+ [
+  {description, "Erlang Implementation for pacing calls to Facebook"},
+  {vsn, "0.0.1"},
+  {registered, [fbq]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { fbq_app, []}},
+  {env, []},
+  {lager, [
+  {handlers, [
+    {lager_console_backend, info},
+    {lager_file_backend, [{file, "error.log"}, {level, error}]},
+    {lager_file_backend, [{file, "console.log"}, {level, info}]},
+    {lager_file_backend, [{file, "debug.log"}, {level, debug}]}
+  ]}
+  ]}
+ ]}.
